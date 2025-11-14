@@ -1,5 +1,6 @@
 # Eric Yang
-Interdisciplinary technology & media student
+Hello. I am Eric, an interdisciplinary technology + media student researching
+user psychology, communications, and design.
 
 ## About Me
 Researching user psychology, communication, and design
