@@ -213,7 +213,49 @@ p {
   max-width: 44rem;
 }
 
+/* ===== Project media ===== */
+
+.proj-media {
+  margin-top: 2rem;
+}
+
+.proj-image-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+
+@media (min-width: 720px) {
+  .proj-image-grid--two {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.proj-image-card {
+  background-color: var(--bg-elevated);
+  border-radius: 0.9rem;
+  border: 1px solid var(--border-subtle);
+  padding: 0.75rem;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.06);
+}
+
+.proj-image-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.6rem;
+}
+
+.proj-image-card figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
 /* Grid / cards (projects) */
+
+
 
 .grid {
   display: grid;
